@@ -1,7 +1,7 @@
 #include <math.h>
 #include <stdio.h>
 
-int main() {
+void main() {
   double a, b, c, D, r1, r2, realPart, imagPart;
 
   printf("\nEnter coefficients a, b, and c: ");
@@ -21,5 +21,5 @@ int main() {
     printf("Root 1 = %.2lf+%.2lfi and Root 2 = %.2f-%.2fi", realPart, imagPart,
            realPart, imagPart);
   }
-  return 0;
+  
 }
