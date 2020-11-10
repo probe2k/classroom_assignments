@@ -2,7 +2,7 @@
 
 int main() {
 	
-	int n, key, first, last middle;
+	int n, key, first, last, middle;
 	
 	printf("Enter the length: ");
 	scanf("%d", &n);
@@ -12,7 +12,7 @@ int main() {
 	printf("\nEnter the array elements: ");
 
 	for (int i = 0; i < n; i++)
-		scanf("%d", &a[i]);
+		scanf("%d", &rra[i]);
 
 	printf("\nEnter the key to be found: ");
 	scanf("%d", &key);
@@ -23,9 +23,9 @@ int main() {
 	middle = (first + last) / 2;
 
 	while (first <= last) {
-		if (arr[middle] < search)
+		if (arr[middle] < key)
 			first = middle + 1;
-		else if (arr[middle] == search) {
+		else if (arr[middle] == key) {
 			printf("\nElement found at index %d", (middle + 1));
 			break;
 		} else
