@@ -1,0 +1,29 @@
+BASIC QUESTIONS :
+
+1. Can you code outside a class in Java?
+2. What are documentation comments and their use case?
+3. What is the purpose of static keyword in Java?
+4. Does Java have different memory width for integers on different machines like C, such as integer can be 2 bytes or 4 bytes depending on the compiler or machine itself?
+5. What is the purpose of private and protected?
+6. What are methods in Java?
+7. What is the byte keyword?
+8. What is specific about classname and filenames in java?
+9. What is the purpose of import keyword?
+10. What do you mean by JVM?
+11. What is the difference between IO Buffer and Scanner?
+12. Can a Java program run without a constructor? Also explain what a constructor is
+13. Why do we use super?
+14. Which class would typically hold more information - superclass or subclass? (You all can read about inheritance in specific by yourself - it's more of a word play than a basic understanding)
+15. How do you use pointers in Java?
+16. How do you use printf in Java? (Underestand the System.out.println() more clearly - it's very helpful)
+17. Why is the main function always static?
+18. How do you use this keyword?
+19. Differenciate between parsing and type casting. Also discuss types of type casting.
+20. Explain construct of Array2String method.
+
+
+PROGRAMS :
+
+1. Write a program using static function to calculate sum of square of N numbers using recursion
+2. Write a program that converts alphabets to their respective characters counting index such as a-1, b-2, and so on, and leaves the rest of the characters as it is. (PS - constrained to small alphabets only). For example - hello238 becomes 85121215234 where 234 stays the same, h becomes it's corresponding 8 and so on...
+3. Write a program to divide N equally in 3. You can use Math.ceil and Math.floor functions to round off to +1 or -1 depending on need. Example - 10 to be divided into 3, you have 3, 3, 4. 11 - 3, 4, 4 and so on.
